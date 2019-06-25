@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.4.tgz#f83ec3c3e05b174b7241fadeb6688267fe5b22ca"
   integrity sha512-+rabAZZ3Yn7tF/XPGHupKIL5EcAbrLxnTr/hgQICxbeuAfWtT0UZSfULE+ndusckBItcv4o6ZeOJplQikVcLvQ==
 
-aws-sdk@^2.393.0, aws-sdk@^2.437.0:
-  version "2.437.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.437.0.tgz#94e41a2ff112aa020ddbe4950dd5f73187889b8b"
-  integrity sha512-sDZb5QBOO6FOMvuKDEdO16YQRk0WUhnQd38EaSt0yUCi4Gev8uypODyYONgODZcXe8Cr1GMwC8scUKr00S/I5w==
+aws-sdk@^2.437.0, aws-sdk@^2.443.0:
+  version "2.482.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.482.0.tgz#cd0babcb52f6633885d3500ff38706b8909ccfb8"
+  integrity sha512-4MYfQZ+SETyjOUFZLEWVEhBqmxFi6MeI0X8FfAFhczb680+8PCKx/pWZHKLAR41k8+Lg5egM+fId0xtCaCSaeQ==
   dependencies:
     buffer "4.9.1"
     events "1.1.1"
@@ -105,12 +105,12 @@ sax@>=0.6.0:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-sqs-consumer@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/sqs-consumer/-/sqs-consumer-5.2.0.tgz#859c99533d6e06fb231b43739feb4a4feacc80ce"
-  integrity sha512-kcx19KuO4jFrye61O19Dqnho0p1GPRinU1DYQnsNygKyHXpiFs63ORW6AxJt+kSdfHzEg/jeLlGha+lGAzGz9g==
+sqs-consumer@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/sqs-consumer/-/sqs-consumer-5.3.0.tgz#1ef8d0a4d14f97a9e2b788af1a0e35166533d21d"
+  integrity sha512-6HO3rLx6/+YPPA3qDMNCqMehRJ9GWeV9+2d7bq1gOI0CKik/cmtooWZvHT+b8bhukjv64BtlftKlIQ6AwEZ2NQ==
   dependencies:
-    aws-sdk "^2.393.0"
+    aws-sdk "^2.443.0"
     debug "^4.1.1"
 
 typescript@^3.1.1:
