@@ -32,7 +32,7 @@
         "iterall": "^1.2.2",
         "sqs-consumer": "^5.2.0",
         "typescript": "^3.1.1",
-        "@types/node": "^11.13.4"
+        "@types/node": "^12.6.2"
     },
     "typings": "dist/index.d.ts",
     "typescript": {
