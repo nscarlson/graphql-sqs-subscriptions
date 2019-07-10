@@ -27,7 +27,7 @@
         "graphql-subscriptions": "^1.0.0"
     },
     "devDependencies": {
-        "aws-sdk": "^2.437.0",
+        "aws-sdk": "^2.490.0",
         "graphql-subscriptions": "^1.0.0",
         "iterall": "^1.2.2",
         "sqs-consumer": "^5.2.0",
