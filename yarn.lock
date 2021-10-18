@@ -7,7 +7,22 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.13.4.tgz#f83ec3c3e05b174b7241fadeb6688267fe5b22ca"
   integrity sha512-+rabAZZ3Yn7tF/XPGHupKIL5EcAbrLxnTr/hgQICxbeuAfWtT0UZSfULE+ndusckBItcv4o6ZeOJplQikVcLvQ==
 
-aws-sdk@^2.393.0, aws-sdk@^2.437.0:
+aws-sdk@2.1010.0:
+  version "2.1010.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1010.0.tgz#a0ff308149e2e358522b991f3b21d2f06c856f0c"
+  integrity sha512-ZiFMY0wJfgBSybAPKl4hEYi4zjs6c6A+kPmifF36C1bFja83Q4iNRUr2P13R41wJn/fdxMyWDgmx6r/5NNLUqg==
+  dependencies:
+    buffer "4.9.2"
+    events "1.1.1"
+    ieee754 "1.1.13"
+    jmespath "0.15.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    uuid "3.3.2"
+    xml2js "0.4.19"
+
+aws-sdk@^2.393.0:
   version "2.437.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.437.0.tgz#94e41a2ff112aa020ddbe4950dd5f73187889b8b"
   integrity sha512-sDZb5QBOO6FOMvuKDEdO16YQRk0WUhnQd38EaSt0yUCi4Gev8uypODyYONgODZcXe8Cr1GMwC8scUKr00S/I5w==
@@ -36,6 +51,15 @@ buffer@4.9.1:
     ieee754 "^1.1.4"
     isarray "^1.0.0"
 
+buffer@4.9.2:
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-4.9.2.tgz#230ead344002988644841ab0244af8c44bbe3ef8"
+  integrity sha512-xq+q3SRMOxGivLhBNaUdC64hDTQwejJ+H0T/NB1XMtTVEwNTrfFF3gAxiyW0Bu/xWEGhjVKgUcMhCrUy2+uCWg==
+  dependencies:
+    base64-js "^1.0.2"
+    ieee754 "^1.1.4"
+    isarray "^1.0.0"
+
 debug@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
@@ -55,15 +79,15 @@ graphql-subscriptions@^1.0.0:
   dependencies:
     iterall "^1.2.1"
 
+ieee754@1.1.13, ieee754@^1.1.4:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
+  integrity sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg==
+
 ieee754@1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
   integrity sha1-vjPUCsEO8ZJnAfbwii2G+/0a0+Q=
-
-ieee754@^1.1.4:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
-  integrity sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg==
 
 isarray@^1.0.0:
   version "1.0.0"
