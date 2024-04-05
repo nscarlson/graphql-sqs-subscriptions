@@ -16,7 +16,7 @@ available-typed-arrays@^1.0.7:
   dependencies:
     possible-typed-array-names "^1.0.0"
 
-aws-sdk@^2.393.0, aws-sdk@^2.814.0:
+aws-sdk@^2.1271.0, aws-sdk@^2.814.0:
   version "2.1593.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1593.0.tgz#37cb0afa89040fad3fab6231afb665f0987d8b83"
   integrity sha512-Oiu6HxWax6Ns75IEYNTVmxT9G1klHMszJKfnHSFv/LlNg432TdkI8Irefw2XRTMxTcWCjbxSnG4+HYDHWE+mXw==
@@ -57,7 +57,7 @@ call-bind@^1.0.2, call-bind@^1.0.7:
     get-intrinsic "^1.2.4"
     set-function-length "^1.2.1"
 
-debug@^4.1.1:
+debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -258,12 +258,12 @@ set-function-length@^1.2.1:
     has-property-descriptors "^1.0.2"
 
 sqs-consumer@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/sqs-consumer/-/sqs-consumer-5.2.0.tgz#859c99533d6e06fb231b43739feb4a4feacc80ce"
-  integrity sha512-kcx19KuO4jFrye61O19Dqnho0p1GPRinU1DYQnsNygKyHXpiFs63ORW6AxJt+kSdfHzEg/jeLlGha+lGAzGz9g==
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/sqs-consumer/-/sqs-consumer-5.8.0.tgz#eb2796bf17e4f703dd93e534bf949f15e7b1fef9"
+  integrity sha512-pJReMEtDM9/xzQTffb7dxMD5MKagBfOW65m+ITsbpNk0oZmJ38tTC4LPmj0/7ZcKSOqi2LrpA1b0qGYOwxlHJg==
   dependencies:
-    aws-sdk "^2.393.0"
-    debug "^4.1.1"
+    aws-sdk "^2.1271.0"
+    debug "^4.3.4"
 
 typescript@^3.1.1:
   version "3.9.10"
